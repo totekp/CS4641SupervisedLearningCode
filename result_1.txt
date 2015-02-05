@@ -1,0 +1,78 @@
+*****Dataset: segment-challenge.arff*****
+Learning algorithm: Decision Tree: J48/C4.5
+training data %	10.0	20.0	30.0	40.0	50.0	60.0	70.0	80.0	90.0	100.0	
+training error %	2.67	2.33	1.78	1.33	1.20	0.78	1.24	1.08	1.26	1.00	
+testing error %	14.07	9.17	6.67	5.56	5.60	5.83	6.44	2.33	2.00	NaN	
+training time (ms)	56.0	19.0	28.0	24.0	20.0	30.0	32.0	34.0	39.0	63.0	
+
+Learning algorithm: Boosting: AdaBoostM1 on J48
+# Iterations	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	1.01	1.01	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+testing error %	4.90	4.90	4.12	3.33	3.92	3.14	3.33	3.53	3.14	3.53	
+training time (ms)	42.0	84.0	84.0	103.0	149.0	176.0	174.0	216.0	221.0	277.0	
+
+Learning algorithm: Neural Network: MultilayerPerceptron
+# Epoches	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	54.34	35.96	22.53	18.79	17.07	12.22	9.80	9.29	8.79	8.59	
+testing error %	56.67	35.29	19.80	18.24	16.86	11.57	10.20	8.82	8.24	8.63	
+training time (ms)	47.0	25.0	26.0	36.0	41.0	47.0	56.0	66.0	70.0	78.0	
+
+Learning algorithm: kNN
+Value of k	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	0.00	2.22	2.73	3.43	3.33	3.54	4.55	4.85	4.65	4.65	
+testing error %	4.51	5.29	4.31	4.71	4.90	5.69	5.88	5.69	6.47	5.69	
+training time (ms)	11.0	7.0	7.0	3.0	5.0	3.0	3.0	2.0	3.0	3.0	
+
+Learning algorithm: SVM: Poly Kernel
+Exponent	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	8.79	5.25	3.13	2.63	1.82	1.62	0.81	0.40	0.40	0.20	
+testing error %	10.59	6.47	4.31	4.71	3.33	3.14	2.75	2.94	3.33	3.92	
+training time (ms)	167.0	152.0	165.0	133.0	215.0	218.0	316.0	440.0	1722.0	926.0	
+
+Learning algorithm: SVM: RBF Kernel
+gamma value	0.01	0.1	0.2	0.3	0.4	0.5	0.6	0.7	0.8	0.9	1.0	
+training error %	39.70	11.82	10.51	9.09	8.59	7.68	8.18	7.88	7.07	6.67	6.67	
+testing error %	44.12	11.37	9.41	8.04	7.45	5.69	5.29	4.71	4.71	4.31	4.51	
+training time (ms)	481.0	217.0	156.0	273.0	179.0	147.0	142.0	157.0	175.0	140.0	145.0	
+
+
+
+*****Dataset: zoo.arff*****
+Learning algorithm: Decision Tree: J48/C4.5
+training data %	10.0	20.0	30.0	40.0	50.0	60.0	70.0	80.0	90.0	100.0	
+training error %	20.00	5.00	3.33	5.00	4.00	0.00	0.00	0.00	1.11	0.99	
+testing error %	54.95	18.52	18.31	11.48	13.73	4.88	6.45	4.76	0.00	NaN	
+training time (ms)	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	2.0	2.0	
+
+Learning algorithm: Boosting: AdaBoostM1 on J48
+# Iterations	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	1.52	1.52	1.52	1.52	1.52	1.52	1.52	1.52	1.52	1.52	
+testing error %	22.86	22.86	22.86	22.86	22.86	22.86	22.86	22.86	22.86	22.86	
+training time (ms)	1.0	3.0	3.0	3.0	4.0	3.0	3.0	3.0	3.0	3.0	
+
+Learning algorithm: Neural Network: MultilayerPerceptron
+# Epoches	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	63.64	63.64	50.00	30.30	30.30	30.30	19.70	19.70	18.18	18.18	
+testing error %	51.43	51.43	28.57	20.00	20.00	20.00	14.29	14.29	14.29	14.29	
+training time (ms)	73.0	70.0	27.0	30.0	35.0	40.0	45.0	52.0	61.0	65.0	
+
+Learning algorithm: kNN
+Value of k	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	0.00	3.03	3.03	4.55	3.03	6.06	7.58	9.09	7.58	10.61	
+testing error %	8.57	8.57	8.57	8.57	8.57	14.29	17.14	20.00	22.86	22.86	
+training time (ms)	1.0	1.0	2.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	
+
+Learning algorithm: SVM: Poly Kernel
+Exponent	1.0	2.0	3.0	4.0	5.0	6.0	7.0	8.0	9.0	10.0	
+training error %	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+testing error %	2.86	0.00	0.00	2.86	8.57	14.29	14.29	17.14	28.57	42.86	
+training time (ms)	47.0	53.0	44.0	49.0	52.0	48.0	46.0	51.0	50.0	43.0	
+
+Learning algorithm: SVM: RBF Kernel
+gamma value	0.01	0.1	0.2	0.3	0.4	0.5	0.6	0.7	0.8	0.9	1.0	
+training error %	40.91	3.03	1.52	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+testing error %	37.14	14.29	8.57	8.57	8.57	8.57	11.43	11.43	14.29	14.29	20.00	
+training time (ms)	155.0	42.0	42.0	43.0	156.0	46.0	46.0	43.0	50.0	62.0	44.0	
+
+
+
